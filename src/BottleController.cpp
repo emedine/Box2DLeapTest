@@ -12,8 +12,7 @@ using std::list;
 
 namespace bottles {
     
-    b2World tWorld();
-    
+    b2World *world;
     BottleController::BottleController()
     {
     }
@@ -21,7 +20,6 @@ namespace bottles {
     void BottleController::setup(b2World &w)
     {
         world = &w;
-       
        
     }
     
@@ -73,7 +71,7 @@ namespace bottles {
         float boxSizeX = Rand::randFloat(global::BOX_X_MIN, global::BOX_X_MAX);
         float boxSizeY = Rand::randFloat(global::BOX_Y_MIN, global::BOX_Y_MAX);
         // rest of initialization particle can do for itself
-        p.setup(&world, Vec2f(boxSizeX, boxSizeY), Vec2f(mousePos));
+        p.setup(world, Vec2f(boxSizeX, boxSizeY), Vec2f(mousePos));
         bottles.push_back(p);
         
     }

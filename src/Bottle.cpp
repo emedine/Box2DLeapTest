@@ -20,14 +20,14 @@ namespace bottles {
     
 	
 	///// should pass in standard sizes for this
-	void Bottle::setup(b2World &tw, Vec2f boxSize, Vec2f mousePos) {
+	void Bottle::setup(b2World *world, Vec2f boxSize, Vec2f mousePos) {
         std::cout << "working 1" <<std::endl;
 
 
 		size = boxSize;
         m_contacting = false;
         
-        tworld = &tw;
+        world = world;
         /// world = &world;
         
          std::cout << "working 2" <<std::endl;
@@ -40,16 +40,15 @@ namespace bottles {
         // b2Body* body = world->CreateBody(&bodyDef);
         // do the following to create it with a circular reference to it's corresponding particle
         bodyDef.userData = this;
-        body = tworld->CreateBody(&bodyDef);
+        body = world->CreateBody(&bodyDef);
         
-         std::cout << "working 3" <<std::endl;
+         std::cout << "working 1" <<std::endl;
         b2PolygonShape dynamicBox;
         float boxSizeX = Rand::randFloat(global::BOX_X_MIN, global::BOX_X_MAX);
         float boxSizeY = Rand::randFloat(global::BOX_Y_MIN, global::BOX_Y_MAX);
         
         dynamicBox.SetAsBox(Conversions::toPhysics(boxSizeX), Conversions::toPhysics(boxSizeY));
         
-         std::cout << "working 4" <<std::endl;
         b2FixtureDef fixtureDef;
         fixtureDef.shape = &dynamicBox;
         fixtureDef.density = 1.0f;
