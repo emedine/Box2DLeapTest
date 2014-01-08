@@ -28,4 +28,6 @@ namespace global {
 	extern float GRAVITY;
 
 	extern int COLOR_SCHEME;
+    
+    
 }

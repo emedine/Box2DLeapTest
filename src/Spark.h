@@ -1,14 +1,22 @@
-//
-//  Spark.h
-//  Box2dLeapTest
-//
-//  Created by Eric Medine on 1/6/14.
-//
-//
+#pragma once
+#include "cinder/Channel.h"
+#include "cinder/Vector.h"
 
-#ifndef __Box2dLeapTest__Spark__
-#define __Box2dLeapTest__Spark__
+#include <vector>
 
-#include <iostream>
-
-#endif /* defined(__Box2dLeapTest__Spark__) */
+class Spark {
+public:
+	Spark();
+	Spark( ci::Vec2i , ci::Vec2f);
+	void update();
+	void draw();
+	
+	ci::Vec2f	mLoc;
+	
+	bool        isDead;
+    float		mRadius;
+    
+private:
+    ci::Vec2f	mDir;
+    ci::Vec2f   mGrav;
+};

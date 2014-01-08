@@ -16,5 +16,6 @@ namespace global {
 	float MAX_BOUNCE	= 0.95f; //.99f;
 	float GRAVITY = .0001;
 
+
 	int COLOR_SCHEME = 0;
 }

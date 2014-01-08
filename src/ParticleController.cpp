@@ -41,6 +41,8 @@ void ParticleController::addParticle(const Vec2i &mousePos)
 	// create a dynamic body
 	b2BodyDef bodyDef;
 	bodyDef.type = b2_dynamicBody;
+    
+    /// why isn't this using &mousePos ?
 	bodyDef.position.Set(Conversions::toPhysics(mousePos.x), Conversions::toPhysics(mousePos.y));
 
 	// instead of just creating body... 
@@ -86,6 +88,7 @@ void ParticleController::removeAll()
 		world->DestroyBody(p->body);
 	}
 
+    /// killl the particles array
 	particles.clear();
 
 	if (global::COLOR_SCHEME == 0)
@@ -94,4 +97,4 @@ void ParticleController::removeAll()
 		global::COLOR_SCHEME--;
 }
 
-}
+} /// end namespace

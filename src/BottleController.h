@@ -1,14 +1,24 @@
-//
-//  BottleController.h
-//  Box2dLeapTest
-//
-//  Created by Eric Medine on 1/6/14.
-//
-//
+#pragma once
+#include "Bottle.h"
+#include <Box2D/Box2d.h>
+#include <list>
 
-#ifndef __Box2dLeapTest__BottleController__
-#define __Box2dLeapTest__BottleController__
+namespace bottles {
+	
+	class BottleController {
+	public:
+		BottleController();
+		// pass the physics world from the main app by reference
+		void setup(b2World &w);
+		void update();
+		void draw();
+		void addBottle(const ci::Vec2i &mousePos);
+		void removeAll();
 
-#include <iostream>
-
-#endif /* defined(__Box2dLeapTest__BottleController__) */
+	private:
+        // store a pointer to the physics world from the main app
+		b2World *world;
+		std::list<Bottle>	bottles;
+    };
+    
+}

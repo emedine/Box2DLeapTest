@@ -6,19 +6,25 @@
 #include "Conversions.h"
 #include <Box2D/Box2d.h>
 
+
+
+
 namespace particles {
 	
 	Particle::Particle() {
-	}
+        
+       	}
 	
 	Particle::~Particle() {
 		//body->GetWorld()->DestroyBody( body );  // this ruins everything
+        
 	}
 	
 	
 	void Particle::setup(Vec2f boxSize) {
-
+       
 		size = boxSize;
+        
 
 		if (global::COLOR_SCHEME == 0)
 			color = ci::ColorA(1, ci::Rand::randFloat(0,.8), 0, 1);  // red to yellow
