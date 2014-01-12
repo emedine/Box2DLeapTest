@@ -7,8 +7,9 @@
 #include "ParticleController.h"
 #include "BottleController.h"
 #include "SparkController.h"
+///#include <cinder/KeyEvent.h>
 /// box 2d
-#include "suBox2D.h"
+//#include "suBox2D.h"
 
 using namespace ci;
 using namespace ci::app;
@@ -18,21 +19,23 @@ using namespace bottles;
 
 b2Vec2 gravity(0.0f, 10.0f);
 b2World world(gravity);
-ParticleController particleController;
-BottleController bottleController;
+
+
 
 
 class Box2dLeapTestApp : public AppBasic {
-    
+
+  BottleController bottleController;
+    ParticleController particleController;
   SparkController sparkController;
   public:
     void prepareSettings( Settings *settings );
     void setup();
     virtual void doMouseDown(MouseEvent event);
     virtual void doMouseUp(MouseEvent event);
-    void mouseMove(MouseEvent event);
-    void mouseDrag(MouseEvent event);
-    void keyDown(KeyEvent event);
+    virtual void mouseMove(MouseEvent event);
+    virtual void mouseDrag(MouseEvent event);
+    virtual void keyDown(KeyEvent event);
     void update();
     void draw();
     
@@ -84,28 +87,35 @@ void Box2dLeapTestApp::setup()
 //////// INPUT FUNCTIONS ////////////////////////////
 void Box2dLeapTestApp::keyDown( KeyEvent event )
 {
-     std::cout << "TEST" <<std::endl;
+    
     switch ( event.getChar() )
     {
         case 'b':
+            sparkController.addSparks(125, mousePos, mouseVel);
             bottleController.addBottle(mousePos);
-            sparkController.addSparks(125, mousePos, mouseVel);
-
             break;
+            
         case 'c':
-            particleController.addParticle(mousePos);
             sparkController.addSparks(125, mousePos, mouseVel);
-
+            particleController.addParticle(mousePos);
             break;
+            
         case 'r':
             particleController.removeAll();
             break;
-            
         case 's':
-            //// sparkController.addSparks(250, mousePos, mouseVel);
+            sparkController.addSparks(250, mousePos, mouseVel);
+            
             break;
             
+        case 'j':
+            sparkController.addSparks(125, mousePos, mouseVel);
+            bottleController.addBottle(mousePos);
+            break;
+
+            
         default:
+            
             break;
     }
 }

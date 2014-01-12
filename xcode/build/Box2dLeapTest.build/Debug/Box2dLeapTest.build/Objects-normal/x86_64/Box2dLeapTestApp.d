@@ -45,10 +45,7 @@ dependencies: \
   /Users/ericmedine/git/Box2dLeapTest/src/Particle.h \
   /Users/ericmedine/git/Box2dLeapTest/src/BottleController.h \
   /Users/ericmedine/git/Box2dLeapTest/src/Bottle.h \
+  /Users/ericmedine/git/Box2dLeapTest/src/Globals.h \
+  ../../Cinder_Master/Cinder/include/cinder/gl/Texture.h \
   /Users/ericmedine/git/Box2dLeapTest/src/SparkController.h \
-  /Users/ericmedine/git/Box2dLeapTest/src/Spark.h \
-  ../blocks/sansumbrella/suBox2D.h ../blocks/sansumbrella/box2d/Common.h \
-  ../blocks/sansumbrella/box2d/Sandbox.h \
-  ../blocks/sansumbrella/Box2D/Renderer.h \
-  ../blocks/sansumbrella/box2d/SimpleControl.h \
-  ../blocks/sansumbrella/box2d/Scale.h
+  /Users/ericmedine/git/Box2dLeapTest/src/Spark.h

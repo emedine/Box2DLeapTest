@@ -38,4 +38,5 @@ dependencies: /Users/ericmedine/git/Box2dLeapTest/src/Bottle.cpp \
   ../blocks/Box2D/src/Box2D/Dynamics/Joints/b2WeldJoint.h \
   /Users/ericmedine/git/Box2dLeapTest/src/Globals.h \
   ../../Cinder_Master/Cinder/include/cinder/Rand.h \
+  ../../Cinder_Master/Cinder/include/cinder/gl/Texture.h \
   /Users/ericmedine/git/Box2dLeapTest/src/Conversions.h

@@ -40,4 +40,5 @@ dependencies: \
   ../blocks/Box2D/src/Box2D/Dynamics/Joints/b2RopeJoint.h \
   ../blocks/Box2D/src/Box2D/Dynamics/Joints/b2WeldJoint.h \
   /Users/ericmedine/git/Box2dLeapTest/src/Globals.h \
+  ../../Cinder_Master/Cinder/include/cinder/gl/Texture.h \
   /Users/ericmedine/git/Box2dLeapTest/src/Conversions.h

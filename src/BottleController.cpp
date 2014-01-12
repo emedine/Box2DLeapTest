@@ -12,7 +12,8 @@ using std::list;
 
 namespace bottles {
     
-    b2World *world;
+
+    
     BottleController::BottleController()
     {
     }
@@ -20,6 +21,7 @@ namespace bottles {
     void BottleController::setup(b2World &w)
     {
         world = &w;
+       
        
     }
     
@@ -39,39 +41,60 @@ namespace bottles {
     
     void BottleController::addBottle(const Vec2i &mousePos)
     {
+        
         Bottle p = Bottle();
+       
+        /// get the box type
+        int boxType = Rand::randInt(3);
+        /// get the image id
+        int imgId = Rand::randInt(3);
+        int boxW;
+        int boxH;
+        
+        
+        //// do a "switch" to set the box2d body params
+        switch (boxType){
+                
+            case 0:
+                boxW = 70;
+                boxH = 70;
+                // theImage = loadImage(cinder::app::loadAsset("boxes/rect_boxSq1.jpg" ));
+                break;
+                
+            case 1:
+                boxW = 123;
+                boxH = 70;
+                // theImage = loadImage( cinder::app::loadAsset("boxes/rect_boxLg1.jpg"));
+                break;
+                
+            case 2:
+                boxW = 93;
+                boxH = 70;
+                // theImage = loadImage( cinder::app::loadAsset("boxes/rect_boxSm1.jpg" ));
+                break;
+                
+                
+            case 3:
+                boxW = 123;
+                boxH = 70;
+                // theImage = loadImage(  cinder::app::loadAsset("boxes/rect_boxLg1.jpg" ));
+                break;
+                
+                
+            default:
+                
+                break;
+                
+        }
+
+        
         /*
-        // create a dynamic body
-        b2BodyDef bodyDef;
-        bodyDef.type = b2_dynamicBody;
-        bodyDef.position.Set(Conversions::toPhysics(mousePos.x), Conversions::toPhysics(mousePos.y));
         
-        // instead of just creating body...
-        // b2Body* body = world->CreateBody(&bodyDef);
-        // do the following to create it with a circular reference to it's corresponding particle
-        bodyDef.userData = &p;
-        p.body = world->CreateBody(&bodyDef);
-        
-        b2PolygonShape dynamicBox;
         float boxSizeX = Rand::randFloat(global::BOX_X_MIN, global::BOX_X_MAX);
         float boxSizeY = Rand::randFloat(global::BOX_Y_MIN, global::BOX_Y_MAX);
-        
-        dynamicBox.SetAsBox(Conversions::toPhysics(boxSizeX), Conversions::toPhysics(boxSizeY));
-        
-        b2FixtureDef fixtureDef;
-        fixtureDef.shape = &dynamicBox;
-        fixtureDef.density = 1.0f;
-        fixtureDef.friction = 0.3f;
-        fixtureDef.restitution = 0.8f; // bounce
-        
-        p.body->CreateFixture(&fixtureDef);
-        */
-        
-        /// clean this
-        float boxSizeX = Rand::randFloat(global::BOX_X_MIN, global::BOX_X_MAX);
-        float boxSizeY = Rand::randFloat(global::BOX_Y_MIN, global::BOX_Y_MAX);
+         */
         // rest of initialization particle can do for itself
-        p.setup(world, Vec2f(boxSizeX, boxSizeY), Vec2f(mousePos));
+        p.setup(world, Vec2f(boxW, boxH), Vec2f(mousePos), boxType, imgId);
         bottles.push_back(p);
         
     }

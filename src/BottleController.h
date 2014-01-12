@@ -19,6 +19,7 @@ namespace bottles {
         // store a pointer to the physics world from the main app
 		b2World *world;
 		std::list<Bottle>	bottles;
+		b2World tWorld();
     };
     
 }
