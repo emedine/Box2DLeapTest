@@ -11,6 +11,8 @@
 /// box 2d
 //#include "suBox2D.h"
 
+#include "MyListener.cpp"
+
 using namespace ci;
 using namespace ci::app;
 using namespace std;
@@ -26,8 +28,13 @@ b2World world(gravity);
 class Box2dLeapTestApp : public AppBasic {
 
   BottleController bottleController;
-    ParticleController particleController;
+  ParticleController particleController;
   SparkController sparkController;
+  
+  
+  MyListener listener;
+  
+    
   public:
     void prepareSettings( Settings *settings );
     void setup();
@@ -73,6 +80,9 @@ void Box2dLeapTestApp::setup()
     b2PolygonShape groundBox;
     groundBox.SetAsBox(Conversions::toPhysics(app::getWindowWidth()/2), Conversions::toPhysics(1.0f)); // size the ground
     
+    // set the listener
+    world.SetContactListener(&listener);
+    
     // 4. create fixture on body
     groundBody->CreateFixture(&groundBox, 0.0f);
     
@@ -93,6 +103,7 @@ void Box2dLeapTestApp::keyDown( KeyEvent event )
         case 'b':
             sparkController.addSparks(125, mousePos, mouseVel);
             bottleController.addBottle(mousePos);
+            printf("here");
             break;
             
         case 'c':

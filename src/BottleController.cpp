@@ -29,6 +29,13 @@ namespace bottles {
     {
         for( list<Bottle>::iterator p = bottles.begin(); p != bottles.end(); p++) {
             p->update();
+            
+                       /*
+            p->m_position = p->GetPosition();
+            p->m_angle = p->GetAngle();
+            p->m_linearVelocity = p->GetLinearVelocity();
+
+             */
         }
     }
     

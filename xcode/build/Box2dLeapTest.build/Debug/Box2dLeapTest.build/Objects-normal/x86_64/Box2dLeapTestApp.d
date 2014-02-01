@@ -48,4 +48,6 @@ dependencies: \
   /Users/ericmedine/git/Box2dLeapTest/src/Globals.h \
   ../../Cinder_Master/Cinder/include/cinder/gl/Texture.h \
   /Users/ericmedine/git/Box2dLeapTest/src/SparkController.h \
-  /Users/ericmedine/git/Box2dLeapTest/src/Spark.h
+  /Users/ericmedine/git/Box2dLeapTest/src/Spark.h \
+  /Users/ericmedine/git/Box2dLeapTest/src/MyListener.cpp \
+  /Users/ericmedine/git/Box2dLeapTest/src/MyListener.h
