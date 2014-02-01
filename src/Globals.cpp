@@ -17,5 +17,5 @@ namespace global {
 	float GRAVITY = .0001;
 
 
-	int COLOR_SCHEME = 0;
+	int COLOR_SCHEME = 1;
 }

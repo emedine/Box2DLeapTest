@@ -5,14 +5,13 @@ cCheck dependencies
 cProcessInfoPlistFile /Users/ericmedine/git/Box2dLeapTest/xcode/build/Debug/Box2dLeapTest.app/Contents/Info.plist /Users/ericmedine/git/Box2dLeapTest/xcode/Info.plist
 cCpResource /Users/ericmedine/git/Box2dLeapTest/resources/CinderApp.icns build/Debug/Box2dLeapTest.app/Contents/Resources/CinderApp.icns
 cProcessPCH++ /var/folders/c6/2rrks1y12w94kkhr56g7_p840000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Box2dLeapTest_Prefix-bfktokeeljrmlrcrypzfzskyzrwt/Box2dLeapTest_Prefix.pch.pch Box2dLeapTest_Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/Globals.o /Users/ericmedine/git/Box2dLeapTest/src/Globals.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/Box2dLeapTestApp.o /Users/ericmedine/git/Box2dLeapTest/src/Box2dLeapTestApp.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/b2BroadPhase.o /Users/ericmedine/git/Box2dLeapTest/blocks/Box2D/src/Box2D/Collision/b2BroadPhase.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/b2CollideCircle.o /Users/ericmedine/git/Box2dLeapTest/blocks/Box2D/src/Box2D/Collision/b2CollideCircle.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/b2CollideEdge.o /Users/ericmedine/git/Box2dLeapTest/blocks/Box2D/src/Box2D/Collision/b2CollideEdge.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/Globals.o /Users/ericmedine/git/Box2dLeapTest/src/Globals.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/ParticleController.o /Users/ericmedine/git/Box2dLeapTest/src/ParticleController.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/b2CollidePolygon.o /Users/ericmedine/git/Box2dLeapTest/blocks/Box2D/src/Box2D/Collision/b2CollidePolygon.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/BottleController.o /Users/ericmedine/git/Box2dLeapTest/src/BottleController.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/b2Collision.o /Users/ericmedine/git/Box2dLeapTest/blocks/Box2D/src/Box2D/Collision/b2Collision.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/Spark.o /Users/ericmedine/git/Box2dLeapTest/src/Spark.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/b2Distance.o /Users/ericmedine/git/Box2dLeapTest/blocks/Box2D/src/Box2D/Collision/b2Distance.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
@@ -25,6 +24,7 @@ cCompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x
 cCompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/b2PolygonShape.o /Users/ericmedine/git/Box2dLeapTest/blocks/Box2D/src/Box2D/Collision/Shapes/b2PolygonShape.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/b2BlockAllocator.o /Users/ericmedine/git/Box2dLeapTest/blocks/Box2D/src/Box2D/Common/b2BlockAllocator.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/b2Draw.o /Users/ericmedine/git/Box2dLeapTest/blocks/Box2D/src/Box2D/Common/b2Draw.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/BottleController.o /Users/ericmedine/git/Box2dLeapTest/src/BottleController.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/b2Math.o /Users/ericmedine/git/Box2dLeapTest/blocks/Box2D/src/Box2D/Common/b2Math.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/b2Settings.o /Users/ericmedine/git/Box2dLeapTest/blocks/Box2D/src/Box2D/Common/b2Settings.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/b2StackAllocator.o /Users/ericmedine/git/Box2dLeapTest/blocks/Box2D/src/Box2D/Common/b2StackAllocator.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
@@ -974,9 +974,9 @@ t1389561918
 s1349
 
 N/Users/ericmedine/git/Box2dLeapTest/src/BottleController.cpp
-c0000000052D211B70000000000000C3F
-t1389498807
-s3135
+c0000000052EC9FDB0000000000000A08
+t1391239131
+s2568
 
 N/Users/ericmedine/git/Box2dLeapTest/src/BottleController.h
 c0000000052CF4C8E00000000000001ED
@@ -994,8 +994,8 @@ t1389212012
 s810
 
 N/Users/ericmedine/git/Box2dLeapTest/src/Globals.cpp
-c0000000052CDB16C000000000000018C
-t1389212012
+c0000000052ECA01C000000000000018C
+t1391239196
 s396
 
 N/Users/ericmedine/git/Box2dLeapTest/src/Globals.h
@@ -1058,7 +1058,7 @@ t1389561989
 s2120760
 
 N/Users/ericmedine/git/Box2dLeapTest/xcode/build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/BottleController.o
-t1389561974
+t1391239203
 s383128
 
 N/Users/ericmedine/git/Box2dLeapTest/xcode/build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/Box2dLeapTest.LinkFileList
@@ -1075,8 +1075,8 @@ t1389562035
 s2799652
 
 N/Users/ericmedine/git/Box2dLeapTest/xcode/build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/Globals.o
-t1389561959
-s75544
+t1391239202
+s75464
 
 N/Users/ericmedine/git/Box2dLeapTest/xcode/build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/Particle.o
 t1389562017
@@ -1283,7 +1283,7 @@ t1389561944
 s1495
 
 N/Users/ericmedine/git/Box2dLeapTest/xcode/build/Debug/Box2dLeapTest.app/Contents/MacOS/Box2dLeapTest
-t1389562039
+t1391239207
 s3735396
 
 N/Users/ericmedine/git/Box2dLeapTest/xcode/build/Debug/Box2dLeapTest.app/Contents/MacOS/libLeap.dylib
@@ -5451,7 +5451,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies94128e414083b841^baa08e414083b841^---0#1#1#--18"Check dependencies36"D128D08A-E728-4796-9E35-1BEC7D51351D-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesa1be1d9ed79cb841^268c1e9ed79cb841^---0#1#1#--18"Check dependencies36"88680473-DCA7-4B02-84F0-E03B1197AAAF-
 
 CCompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/Bottle.o /Users/ericmedine/git/Box2dLeapTest/src/Bottle.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s411254784.574708
@@ -5510,8 +5510,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile
 b3C11D1DF-7EB8-4CF0-B2EF-31BFB1039E5E
 
 CCompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/BottleController.o /Users/ericmedine/git/Box2dLeapTest/src/BottleController.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s411254770.287483
-e411254774.430218
+s412931998.141287
+e412932003.117122
 r1
 xCompileC
 x./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/BottleController.o
@@ -5567,8 +5567,8 @@ o/Users/ericmedine/git/Box2dLeapTest/src/BottleController.cpp:1:9: warning: #pra
 o#pragma once
 o        ^
 o1 warning generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/ericmedine/git/Box2dLeapTest/src/BottleController.cpp226"CompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/BottleController.o /Users/ericmedine/git/Box2dLeapTest/src/BottleController.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler45bc49f23f83b841^96216ef63f83b841^-145"/Users/ericmedine/git/Box2dLeapTest/src/BottleController.cpp:1:9: warning: #pragma once in main file#pragma once        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@25"#pragma once in main file-411254774#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@76"file://localhost/Users/ericmedine/git/Box2dLeapTest/src/BottleController.cpp0000000000000000^0#8#0#8#8#0#29"Lexical or Preprocessor Issue--0#0#1#-19%DVTDocumentLocation4@76"file://localhost/Users/ericmedine/git/Box2dLeapTest/src/BottleController.cpp0000000000000000^3229"CompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/BottleController.o /Users/ericmedine/git/Box2dLeapTest/src/BottleController.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ericmedine/git/Box2dLeapTest/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Box2dLeapTest-generated-files.hmap -I/Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Box2dLeapTest-own-target-headers.hmap -I/Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Box2dLeapTest-all-target-headers.hmap -iquote /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Box2dLeapTest-project-headers.hmap -iquote../../Cinder_Master/Cinder/include -iquote../include -iquote../blocks/sansumbrella -iquote../blocks/Box2D/src -iquote../blocks/LeapMotion/src -I/Users/ericmedine/git/Box2dLeapTest/xcode/build/Debug/include -I../../Cinder_Master/Cinder/boost -I../blocks/sansumbrella -I../blocks/Box2D/src -I/Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/DerivedSources/x86_64 -I/Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/DerivedSources -F/Users/ericmedine/git/Box2dLeapTest/xcode/build/Debug -include /var/folders/c6/2rrks1y12w94kkhr56g7_p840000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Box2dLeapTest_Prefix-bfktokeeljrmlrcrypzfzskyzrwt/Box2dLeapTest_Prefix.pch -MMD -MT dependencies -MF /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/BottleController.d --serialize-diagnostics /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/BottleController.dia -c /Users/ericmedine/git/Box2dLeapTest/src/BottleController.cpp -o /Users/ericmedine/git/Box2dLeapTest/xcode/build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/BottleController.o36"2656B485-9365-425E-BA28-9583711E0B72-
-b3C11D1DF-7EB8-4CF0-B2EF-31BFB1039E5E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/ericmedine/git/Box2dLeapTest/src/BottleController.cpp226"CompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/BottleController.o /Users/ericmedine/git/Box2dLeapTest/src/BottleController.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler4242249ed79cb841^dff91da3d79cb841^-145"/Users/ericmedine/git/Box2dLeapTest/src/BottleController.cpp:1:9: warning: #pragma once in main file#pragma once        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@25"#pragma once in main file-412932003#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@76"file://localhost/Users/ericmedine/git/Box2dLeapTest/src/BottleController.cpp0000000000000000^0#8#0#8#8#0#29"Lexical or Preprocessor Issue--0#0#1#-19%DVTDocumentLocation4@76"file://localhost/Users/ericmedine/git/Box2dLeapTest/src/BottleController.cpp0000000000000000^3229"CompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/BottleController.o /Users/ericmedine/git/Box2dLeapTest/src/BottleController.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ericmedine/git/Box2dLeapTest/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Box2dLeapTest-generated-files.hmap -I/Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Box2dLeapTest-own-target-headers.hmap -I/Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Box2dLeapTest-all-target-headers.hmap -iquote /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Box2dLeapTest-project-headers.hmap -iquote../../Cinder_Master/Cinder/include -iquote../include -iquote../blocks/sansumbrella -iquote../blocks/Box2D/src -iquote../blocks/LeapMotion/src -I/Users/ericmedine/git/Box2dLeapTest/xcode/build/Debug/include -I../../Cinder_Master/Cinder/boost -I../blocks/sansumbrella -I../blocks/Box2D/src -I/Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/DerivedSources/x86_64 -I/Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/DerivedSources -F/Users/ericmedine/git/Box2dLeapTest/xcode/build/Debug -include /var/folders/c6/2rrks1y12w94kkhr56g7_p840000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Box2dLeapTest_Prefix-bfktokeeljrmlrcrypzfzskyzrwt/Box2dLeapTest_Prefix.pch -MMD -MT dependencies -MF /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/BottleController.d --serialize-diagnostics /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/BottleController.dia -c /Users/ericmedine/git/Box2dLeapTest/src/BottleController.cpp -o /Users/ericmedine/git/Box2dLeapTest/xcode/build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/BottleController.o36"B178DBEF-BC82-422B-9A75-3888581EFF64-
+bA3493F62-4D52-4F5B-A565-22A242905D43
 
 CCompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/Box2dLeapTestApp.o /Users/ericmedine/git/Box2dLeapTest/src/Box2dLeapTestApp.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s411254755.346358
@@ -5653,8 +5653,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile
 b3C11D1DF-7EB8-4CF0-B2EF-31BFB1039E5E
 
 CCompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/Globals.o /Users/ericmedine/git/Box2dLeapTest/src/Globals.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s411254755.345503
-e411254759.493445
+s412931998.139205
+e412932002.769416
 r1
 xCompileC
 x./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/Globals.o
@@ -5665,8 +5665,8 @@ xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/ericmedine/git/Box2dLeapTest/src/Globals.cpp
 d/Users/ericmedine/git/Box2dLeapTest/src/Globals.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/ericmedine/git/Box2dLeapTest/src/Globals.cpp208"CompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/Globals.o /Users/ericmedine/git/Box2dLeapTest/src/Globals.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilere99b58e33f83b841^36567ee73f83b841^---0#0#1#-19%DVTDocumentLocation2@67"file://localhost/Users/ericmedine/git/Box2dLeapTest/src/Globals.cpp0000000000000000^3175"CompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/Globals.o /Users/ericmedine/git/Box2dLeapTest/src/Globals.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ericmedine/git/Box2dLeapTest/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Box2dLeapTest-generated-files.hmap -I/Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Box2dLeapTest-own-target-headers.hmap -I/Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Box2dLeapTest-all-target-headers.hmap -iquote /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Box2dLeapTest-project-headers.hmap -iquote../../Cinder_Master/Cinder/include -iquote../include -iquote../blocks/sansumbrella -iquote../blocks/Box2D/src -iquote../blocks/LeapMotion/src -I/Users/ericmedine/git/Box2dLeapTest/xcode/build/Debug/include -I../../Cinder_Master/Cinder/boost -I../blocks/sansumbrella -I../blocks/Box2D/src -I/Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/DerivedSources/x86_64 -I/Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/DerivedSources -F/Users/ericmedine/git/Box2dLeapTest/xcode/build/Debug -include /var/folders/c6/2rrks1y12w94kkhr56g7_p840000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Box2dLeapTest_Prefix-bfktokeeljrmlrcrypzfzskyzrwt/Box2dLeapTest_Prefix.pch -MMD -MT dependencies -MF /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/Globals.d --serialize-diagnostics /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/Globals.dia -c /Users/ericmedine/git/Box2dLeapTest/src/Globals.cpp -o /Users/ericmedine/git/Box2dLeapTest/xcode/build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/Globals.o36"2EEF5AEA-3824-475F-86EE-7D4D25827F8B-
-b3C11D1DF-7EB8-4CF0-B2EF-31BFB1039E5E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/ericmedine/git/Box2dLeapTest/src/Globals.cpp208"CompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/Globals.o /Users/ericmedine/git/Box2dLeapTest/src/Globals.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilercbd9239ed79cb841^bef6c4a2d79cb841^---0#0#1#-19%DVTDocumentLocation2@67"file://localhost/Users/ericmedine/git/Box2dLeapTest/src/Globals.cpp0000000000000000^3175"CompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/Globals.o /Users/ericmedine/git/Box2dLeapTest/src/Globals.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ericmedine/git/Box2dLeapTest/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Box2dLeapTest-generated-files.hmap -I/Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Box2dLeapTest-own-target-headers.hmap -I/Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Box2dLeapTest-all-target-headers.hmap -iquote /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Box2dLeapTest-project-headers.hmap -iquote../../Cinder_Master/Cinder/include -iquote../include -iquote../blocks/sansumbrella -iquote../blocks/Box2D/src -iquote../blocks/LeapMotion/src -I/Users/ericmedine/git/Box2dLeapTest/xcode/build/Debug/include -I../../Cinder_Master/Cinder/boost -I../blocks/sansumbrella -I../blocks/Box2D/src -I/Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/DerivedSources/x86_64 -I/Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/DerivedSources -F/Users/ericmedine/git/Box2dLeapTest/xcode/build/Debug -include /var/folders/c6/2rrks1y12w94kkhr56g7_p840000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Box2dLeapTest_Prefix-bfktokeeljrmlrcrypzfzskyzrwt/Box2dLeapTest_Prefix.pch -MMD -MT dependencies -MF /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/Globals.d --serialize-diagnostics /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/Globals.dia -c /Users/ericmedine/git/Box2dLeapTest/src/Globals.cpp -o /Users/ericmedine/git/Box2dLeapTest/xcode/build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/Globals.o36"3C1E9F9F-14EF-457C-86A3-4D0E3ABEFD39-
+bA3493F62-4D52-4F5B-A565-22A242905D43
 
 CCompileC ./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/Particle.o /Users/ericmedine/git/Box2dLeapTest/src/Particle.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s411254814.511344
@@ -6988,8 +6988,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy bu
 b3C11D1DF-7EB8-4CF0-B2EF-31BFB1039E5E
 
 CLd /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Debug/Box2dLeapTest.app/Contents/MacOS/Box2dLeapTest normal x86_64
-s411254835.965647
-e411254839.263626
+s412932003.129025
+e412932007.190655
 r1
 xLd
 x/Users/ericmedine/git/Box2dLeapTest/xcode/./build/Debug/Box2dLeapTest.app/Contents/MacOS/Box2dLeapTest
@@ -7064,6 +7064,13 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
@@ -7094,18 +7101,13 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.A.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
@@ -7117,8 +7119,6 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.A.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
@@ -7127,8 +7127,8 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Link /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Debug/Box2dLeapTest.app/Contents/MacOS/Box2dLeapTest77"Ld ./build/Debug/Box2dLeapTest.app/Contents/MacOS/Box2dLeapTest normal x86_64774ef7334083b841^788043374083b841^---0#0#1#--1254"Ld ./build/Debug/Box2dLeapTest.app/Contents/MacOS/Box2dLeapTest normal x86_64    cd /Users/ericmedine/git/Box2dLeapTest/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/ericmedine/git/Box2dLeapTest/xcode/build/Debug -F/Users/ericmedine/git/Box2dLeapTest/xcode/build/Debug -filelist /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/Box2dLeapTest.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../Cinder_Master/Cinder/lib/libcinder_d.a ../blocks/LeapMotion/lib/macosx/libLeap.dylib -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -Xlinker -dependency_info -Xlinker /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/Box2dLeapTest_dependency_info.dat -o /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Debug/Box2dLeapTest.app/Contents/MacOS/Box2dLeapTest36"7AE6C624-3A7B-417F-916F-C93BC65A52D7-
-b3C11D1DF-7EB8-4CF0-B2EF-31BFB1039E5E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Link /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Debug/Box2dLeapTest.app/Contents/MacOS/Box2dLeapTest77"Ld ./build/Debug/Box2dLeapTest.app/Contents/MacOS/Box2dLeapTest normal x86_64b81e21a3d79cb841^8dcf30a7d79cb841^---0#0#1#--1254"Ld ./build/Debug/Box2dLeapTest.app/Contents/MacOS/Box2dLeapTest normal x86_64    cd /Users/ericmedine/git/Box2dLeapTest/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/ericmedine/git/Box2dLeapTest/xcode/build/Debug -F/Users/ericmedine/git/Box2dLeapTest/xcode/build/Debug -filelist /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/Box2dLeapTest.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../Cinder_Master/Cinder/lib/libcinder_d.a ../blocks/LeapMotion/lib/macosx/libLeap.dylib -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -Xlinker -dependency_info -Xlinker /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Box2dLeapTest.build/Debug/Box2dLeapTest.build/Objects-normal/x86_64/Box2dLeapTest_dependency_info.dat -o /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Debug/Box2dLeapTest.app/Contents/MacOS/Box2dLeapTest36"249FE1D5-E4E0-44AD-BA88-0EE36E514EAD-
+bA3493F62-4D52-4F5B-A565-22A242905D43
 
 CPBXCp /Users/ericmedine/git/Box2dLeapTest/blocks/LeapMotion/lib/macosx/libLeap.dylib build/Debug/Box2dLeapTest.app/Contents/MacOS/libLeap.dylib
 s411254839.272991
@@ -7960,11 +7960,11 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precomp
 b3C11D1DF-7EB8-4CF0-B2EF-31BFB1039E5E
 
 CTouch /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Debug/Box2dLeapTest.app
-s411254839.556553
-e411254839.565086
+s412932007.202189
+e412932007.210599
 r1
 xTouch
 x/Users/ericmedine/git/Box2dLeapTest/xcode/./build/Debug/Box2dLeapTest.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Touch /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Debug/Box2dLeapTest.app37"Touch ./build/Debug/Box2dLeapTest.app5b978e374083b841^00aa90374083b841^---0#0#1#--183"Touch ./build/Debug/Box2dLeapTest.app    cd /Users/ericmedine/git/Box2dLeapTest/xcode    /usr/bin/touch -c /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Debug/Box2dLeapTest.app36"71B91905-66CF-4A6D-98E6-53DDF2BECD96-
-b3C11D1DF-7EB8-4CF0-B2EF-31BFB1039E5E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Touch /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Debug/Box2dLeapTest.app37"Touch ./build/Debug/Box2dLeapTest.app67d533a7d79cb841^36ea35a7d79cb841^---0#0#1#--183"Touch ./build/Debug/Box2dLeapTest.app    cd /Users/ericmedine/git/Box2dLeapTest/xcode    /usr/bin/touch -c /Users/ericmedine/git/Box2dLeapTest/xcode/./build/Debug/Box2dLeapTest.app36"89F0D9FB-5DC6-40D9-8177-B6B14DDEA131-
+bA3493F62-4D52-4F5B-A565-22A242905D43
 

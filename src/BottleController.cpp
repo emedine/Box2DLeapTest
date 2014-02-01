@@ -58,26 +58,22 @@ namespace bottles {
             case 0:
                 boxW = 70;
                 boxH = 70;
-                // theImage = loadImage(cinder::app::loadAsset("boxes/rect_boxSq1.jpg" ));
                 break;
                 
             case 1:
                 boxW = 123;
                 boxH = 70;
-                // theImage = loadImage( cinder::app::loadAsset("boxes/rect_boxLg1.jpg"));
                 break;
                 
             case 2:
                 boxW = 93;
                 boxH = 70;
-                // theImage = loadImage( cinder::app::loadAsset("boxes/rect_boxSm1.jpg" ));
                 break;
                 
                 
             case 3:
                 boxW = 123;
                 boxH = 70;
-                // theImage = loadImage(  cinder::app::loadAsset("boxes/rect_boxLg1.jpg" ));
                 break;
                 
                 
@@ -87,12 +83,7 @@ namespace bottles {
                 
         }
 
-        
-        /*
-        
-        float boxSizeX = Rand::randFloat(global::BOX_X_MIN, global::BOX_X_MAX);
-        float boxSizeY = Rand::randFloat(global::BOX_Y_MIN, global::BOX_Y_MAX);
-         */
+
         // rest of initialization particle can do for itself
         p.setup(world, Vec2f(boxW, boxH), Vec2f(mousePos), boxType, imgId);
         bottles.push_back(p);
