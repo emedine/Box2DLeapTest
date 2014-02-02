@@ -27,6 +27,9 @@ namespace bottles {
 		ci::Vec2f size;
         int boxType;
         int imageId;
+        
+        int bottleId;
+        
         gl::Texture theImage;
         /// gl::Texture anotherImage;
         
@@ -41,14 +44,18 @@ namespace bottles {
 		void endContact();
         void showImpact();
         /// bool m_contacting;
+
+        protected:
+        
+        bool hasHit;
+        
         
         private:
         // store a pointer to the world from the main app
 		b2World *tworld;
-
-        // bool hasHit;
-        bool done(); // checks to see if the object has left the bounds
-
+        
+        
+       
         // these are the paths to the images
         std::string squarePaths[4] = {"boxes/rect_boxSq1.jpg","boxes/rect_boxSq2.jpg","boxes/rect_boxSq3.jpg","boxes/rect_boxSq4.jpg"};
         std::string rectPaths[4] = {"boxes/rect_boxLg1.jpg","boxes/rect_boxLg2.jpg","boxes/rect_boxLg3.jpg","boxes/rect_boxLg4.jpg"};

@@ -6,18 +6,27 @@
 #include <string.h>
 #include <iostream>
 
+#include <sstream>
+
 using namespace bottles;
 
 int boxType;
 int tImgId;
-bool hasHit;
+
+int bottleId;
+
+
 Bottle::Bottle() {
-    
-  
+    hasHit = false;
+    bottleId = 0;
 }
 
+/// destroyer
 Bottle::~Bottle() {
 	//body->GetWorld()->DestroyBody( body );  // this ruins everything
+    
+    
+    
 }
 
 ///// should pass in standard sizes for this
@@ -33,7 +42,7 @@ void Bottle::setup(b2World *tw, Vec2f boxSize, Vec2f mousePos, int bT, int imgId
     boxType = bT;
     tImgId = imgId;
 	size = boxSize/2;
-    hasHit = false;
+    
 	/// m_contacting = false;
     
 	tworld = tw;
@@ -102,6 +111,8 @@ void Bottle::setup(b2World *tw, Vec2f boxSize, Vec2f mousePos, int bT, int imgId
     b2Vec2 m_position;
     /// float m_angle; /// maybe we won't use this because it's not a circle?
     b2Vec2 m_linearVelocity;
+    
+    
 
    }
 
@@ -110,9 +121,7 @@ void Bottle::update() {
 }
 
 void Bottle::draw() {
-    /*
-	glColor4f(color);
-     */
+    
 	Vec2f pos = Conversions::toScreen( body->GetPosition() );
 	float t = Conversions::radiansToDegrees( body->GetAngle() );
 
@@ -126,15 +135,18 @@ void Bottle::draw() {
     */
     ///// image
     
-    if(hasHit==true){
+    if(hasHit){
+        printf(" HAS HIT ");
         
         if(theImage){
-           //  gl::draw( theImage, Vec2f(-size.x, -size.y ) );
+           
+           // gl::draw( theImage, Vec2f(-size.x, -size.y ) );
         }
         
         
     } else {
-        
+        /// printf(" no hit ");
+        /// std::cout<< hasHit;
         if(theImage){
            gl::draw( theImage, Vec2f(-size.x, -size.y ) );
         }
@@ -143,61 +155,32 @@ void Bottle::draw() {
    	glPopMatrix();
 }
 
-
 void Bottle::showImpact(){
     
 
-    printf("SHOWING IMPACT: ");
-    /// theImage = loadImage( cinder::app::loadAsset(squarePathsR[tImgId]));
+    printf("  IMPACT   ");
+    
     hasHit = true;
-    // printf(boxType);
-    
-/*
-    switch (boxType){
-            
-        case 0:
-            theImage = loadImage( cinder::app::loadAsset(squarePathsR[tImgId]));
-            break;
-            
-        case 1:
-            theImage = loadImage( cinder::app::loadAsset(rectPathsR[tImgId]));
-            break;
-            
-        case 2:
-            theImage = loadImage( cinder::app::loadAsset(rectSmPathsR[tImgId]));
-            break;
-            
-            
-        case 3:
-            theImage = loadImage( cinder::app::loadAsset(rectPathsR[tImgId]));
-            break;
-            
-            
-        default:
-            
-            break;
-            
-    }
+    std::cout<< hasHit;
+
      
-*/
-    
 }
+
 
 //// collision params
 //  bottle class functions
 void Bottle::startContact() {
-    printf("HIT FUCKIN BOTTLE");
-	/// m_contacting = true;
+    
 }
 void endContact() {
-	/// m_contacting = false;
+	
 }
 
-///*
+/*
 void GetUserData(){
     
     
 }
- //*/
+*/
 
 

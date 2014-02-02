@@ -9,6 +9,8 @@
 using namespace ci;
 using std::list;
 
+int counter;
+
 
 namespace bottles {
     
@@ -22,7 +24,7 @@ namespace bottles {
     {
         world = &w;
        
-       
+        counter = 0;
     }
     
     void BottleController::update()
@@ -58,7 +60,6 @@ namespace bottles {
         int boxW;
         int boxH;
         
-        
         //// do a "switch" to set the box2d body params
         switch (boxType){
                 
@@ -93,6 +94,9 @@ namespace bottles {
 
         // rest of initialization particle can do for itself
         p.setup(world, Vec2f(boxW, boxH), Vec2f(mousePos), boxType, imgId);
+        p.bottleId = counter;
+        counter ++;
+
         bottles.push_back(p);
         
     }
