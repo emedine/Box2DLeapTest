@@ -31,24 +31,21 @@ class MyListener : public b2ContactListener {
         //check if fixture A was a ball
         void* bodyUserData = contact->GetFixtureA()->GetBody()->GetUserData();
         if ( bodyUserData ){
-            printf(" Hit ");
-            
-            static_cast<bottles::Bottle*>( bodyUserData )->startContact();
+
+            static_cast<bottles::Bottle*>( bodyUserData )->showImpact();
            
         } else {
-            
-            printf(" wall hit ");
+
         }
         
         //check if fixture B was a ball
         bodyUserData = contact->GetFixtureB()->GetBody()->GetUserData();
         if ( bodyUserData ){
-            printf(" hit ");
             
             
         } else {
             
-            printf(" wall hit ");
+
         }
     }
     

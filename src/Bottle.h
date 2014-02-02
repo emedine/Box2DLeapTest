@@ -28,6 +28,7 @@ namespace bottles {
         int boxType;
         int imageId;
         gl::Texture theImage;
+        /// gl::Texture anotherImage;
         
         /// set some attributes
         // these are not used yet
@@ -38,15 +39,16 @@ namespace bottles {
         // for contact functions
         void startContact();
 		void endContact();
+        void showImpact();
         /// bool m_contacting;
         
         private:
         // store a pointer to the world from the main app
 		b2World *tworld;
-        bool hasHit;
 
+        // bool hasHit;
         bool done(); // checks to see if the object has left the bounds
-        void showImpact();
+
         // these are the paths to the images
         std::string squarePaths[4] = {"boxes/rect_boxSq1.jpg","boxes/rect_boxSq2.jpg","boxes/rect_boxSq3.jpg","boxes/rect_boxSq4.jpg"};
         std::string rectPaths[4] = {"boxes/rect_boxLg1.jpg","boxes/rect_boxLg2.jpg","boxes/rect_boxLg3.jpg","boxes/rect_boxLg4.jpg"};

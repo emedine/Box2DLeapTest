@@ -103,7 +103,7 @@ void Box2dLeapTestApp::keyDown( KeyEvent event )
         case 'b':
             sparkController.addSparks(125, mousePos, mouseVel);
             bottleController.addBottle(mousePos);
-            printf("here");
+
             break;
             
         case 'c':

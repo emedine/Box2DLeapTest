@@ -7,6 +7,10 @@
 #include <iostream>
 
 using namespace bottles;
+
+int boxType;
+int tImgId;
+bool hasHit;
 Bottle::Bottle() {
     
   
@@ -27,32 +31,37 @@ void Bottle::setup(b2World *tw, Vec2f boxSize, Vec2f mousePos, int bT, int imgId
      */
     
     boxType = bT;
-    imageId = imgId;
+    tImgId = imgId;
 	size = boxSize/2;
+    hasHit = false;
 	/// m_contacting = false;
     
 	tworld = tw;
 	/// world = &world;
-    
+
     /// load an image
     
     switch (boxType){
             
         case 0:
-           theImage = loadImage( cinder::app::loadAsset(squarePaths[imageId]));
+            theImage = loadImage( cinder::app::loadAsset(squarePaths[tImgId]));
+            //theImageR = loadImage( cinder::app::loadAsset(squarePathsR[tImgId]));
             break;
             
         case 1:
-            theImage = loadImage( cinder::app::loadAsset(rectPaths[imageId]));
+            theImage = loadImage( cinder::app::loadAsset(rectPaths[tImgId]));
+            //theImageR = loadImage( cinder::app::loadAsset(rectPathsR[tImgId]));
             break;
             
         case 2:
-           theImage = loadImage( cinder::app::loadAsset(rectSmPaths[imageId]));
+            theImage = loadImage( cinder::app::loadAsset(rectSmPaths[tImgId]));
+            //theImageR = loadImage( cinder::app::loadAsset(rectSmPathsR[tImgId]));
             break;
             
             
         case 3:
-           theImage = loadImage( cinder::app::loadAsset(rectPaths[imageId]));
+            theImage = loadImage( cinder::app::loadAsset(rectPaths[tImgId]));
+            //theImageR = loadImage( cinder::app::loadAsset(rectPathsR[tImgId]));
             break;
             
             
@@ -91,7 +100,7 @@ void Bottle::setup(b2World *tw, Vec2f boxSize, Vec2f mousePos, int bT, int imgId
     
     /// set some attribute vars that we can access later on
     b2Vec2 m_position;
-    float m_angle; /// maybe we won't use this because it's not a circle?
+    /// float m_angle; /// maybe we won't use this because it's not a circle?
     b2Vec2 m_linearVelocity;
 
    }
@@ -116,31 +125,51 @@ void Bottle::draw() {
 	gl::drawSolidRect(rect);
     */
     ///// image
-    if( theImage )
-		gl::draw( theImage, Vec2f(-size.x, -size.y ) );
-
-	glPopMatrix();
+    
+    if(hasHit==true){
+        
+        if(theImage){
+           //  gl::draw( theImage, Vec2f(-size.x, -size.y ) );
+        }
+        
+        
+    } else {
+        
+        if(theImage){
+           gl::draw( theImage, Vec2f(-size.x, -size.y ) );
+        }
+        
+    }
+   	glPopMatrix();
 }
 
 
 void Bottle::showImpact(){
+    
+
+    printf("SHOWING IMPACT: ");
+    /// theImage = loadImage( cinder::app::loadAsset(squarePathsR[tImgId]));
+    hasHit = true;
+    // printf(boxType);
+    
+/*
     switch (boxType){
             
         case 0:
-            theImage = loadImage( cinder::app::loadAsset(squarePathsR[imageId]));
+            theImage = loadImage( cinder::app::loadAsset(squarePathsR[tImgId]));
             break;
             
         case 1:
-            theImage = loadImage( cinder::app::loadAsset(rectPathsR[imageId]));
+            theImage = loadImage( cinder::app::loadAsset(rectPathsR[tImgId]));
             break;
             
         case 2:
-            theImage = loadImage( cinder::app::loadAsset(rectSmPathsR[imageId]));
+            theImage = loadImage( cinder::app::loadAsset(rectSmPathsR[tImgId]));
             break;
             
             
         case 3:
-            theImage = loadImage( cinder::app::loadAsset(rectPathsR[imageId]));
+            theImage = loadImage( cinder::app::loadAsset(rectPathsR[tImgId]));
             break;
             
             
@@ -149,7 +178,8 @@ void Bottle::showImpact(){
             break;
             
     }
-
+     
+*/
     
 }
 
