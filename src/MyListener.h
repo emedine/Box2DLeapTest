@@ -18,5 +18,6 @@ class MyListener {
 #define __Box2dLeapTest__MyListener__
 
 #include <iostream>
+#include "Bottle.h"
 
 #endif /* defined(__Box2dLeapTest__MyListener__) */

@@ -29,7 +29,7 @@ void Bottle::setup(b2World *tw, Vec2f boxSize, Vec2f mousePos, int bT, int imgId
     boxType = bT;
     imageId = imgId;
 	size = boxSize/2;
-	m_contacting = false;
+	/// m_contacting = false;
     
 	tworld = tw;
 	/// world = &world;
@@ -73,6 +73,8 @@ void Bottle::setup(b2World *tw, Vec2f boxSize, Vec2f mousePos, int bT, int imgId
 	// do the following to create it with a circular reference to it's corresponding particle
     // I don't know why we're doing this
 	bodyDef.userData = this;
+    
+    body->SetUserData( this );
 	body = tworld->CreateBody(&bodyDef);
 
 	b2PolygonShape dynamicBox;
@@ -154,17 +156,18 @@ void Bottle::showImpact(){
 //// collision params
 //  bottle class functions
 void Bottle::startContact() {
-	m_contacting = true;
+    printf("HIT FUCKIN BOTTLE");
+	/// m_contacting = true;
 }
-void Bottle::endContact() {
-	m_contacting = false;
+void endContact() {
+	/// m_contacting = false;
 }
 
-/*
+///*
 void GetUserData(){
     
     
 }
- */
+ //*/
 
 

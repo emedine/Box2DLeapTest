@@ -6,6 +6,7 @@
 //
 //
 #include "Bottle.h"
+// #include "Bottle.cpp"
 #include "MyListener.h"
 
 #include <Box2D/Box2d.h>
@@ -24,23 +25,30 @@ class MyListener : public b2ContactListener {
      virtual void Remove (b2ContactPoint *point);
      virtual void Result (b2ContactPoint *point);
      */
-    
-    
+
     void BeginContact(b2Contact* contact) {
         
         //check if fixture A was a ball
         void* bodyUserData = contact->GetFixtureA()->GetBody()->GetUserData();
         if ( bodyUserData ){
-            printf("Hit");
-            /// static_cast<bottles::Bottle>( bodyUserData )->startContact();
+            printf(" Hit ");
+            
+            static_cast<bottles::Bottle*>( bodyUserData )->startContact();
+           
+        } else {
+            
+            printf(" wall hit ");
         }
         
         //check if fixture B was a ball
         bodyUserData = contact->GetFixtureB()->GetBody()->GetUserData();
         if ( bodyUserData ){
-            printf("Hit");
+            printf(" hit ");
             
             
+        } else {
+            
+            printf(" wall hit ");
         }
     }
     

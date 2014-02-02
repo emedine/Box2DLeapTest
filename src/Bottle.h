@@ -35,14 +35,17 @@ namespace bottles {
         float m_angle; /// maybe we won't use this because it's not a circle?
         b2Vec2 m_linearVelocity;
         
+        // for contact functions
+        void startContact();
+		void endContact();
+        /// bool m_contacting;
+        
         private:
         // store a pointer to the world from the main app
 		b2World *tworld;
         bool hasHit;
-		bool m_contacting = false;
+
         bool done(); // checks to see if the object has left the bounds
-		void startContact();
-		void endContact();
         void showImpact();
         // these are the paths to the images
         std::string squarePaths[4] = {"boxes/rect_boxSq1.jpg","boxes/rect_boxSq2.jpg","boxes/rect_boxSq3.jpg","boxes/rect_boxSq4.jpg"};
